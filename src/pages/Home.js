@@ -12,7 +12,7 @@ export default function Home(){
 
     return(
         <div style={{width: "100%"}}>
-            <img className="main-pano" src={require("../Image/Pano.png")} alt="logo" width="100%" height="100%" style={{transform: "scale("+ (1 - Math.min(Math.max((scrollY) * 0.005 / 10, 0), 0.5)) +")", borderRadius: (scrollY) / 10 * 100 }}/> 
+            <img className="main-pano" src={require("../Image/Pano.png")} alt="logo" width="100%" height="100%" style={{transform: "scale("+ (1 - Math.min(Math.max((scrollY) * 0.005 / 10, 0), 0.5)) +")", borderRadius: (scrollY) / 10 * 30 }}/> 
             <div className="main-text" style={{transform: "scale("+ Math.min(Math.max((scrollY + 900) / 1000, 0), 1.4) +")", zIndex: 1, overflowX: "hidden", position: "absolute"}}>
                 <p style={{color: "#92DDC8"}} className="spaced">UNREAL ENGINE</p>
                 <p className="spaced">SUPERCHARGED</p>
