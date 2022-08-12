@@ -54,27 +54,27 @@ export default function Home(){
                         WHY UNREALIFY?
                         </h2>
                         <p>
-                            <b>It's Light!</b>
+                            <b style={{color: "#92DDC8"}}>It's Light!</b>
                             <br/>
                             Unrealify uses the native Python user interface library and hand-created componets to ensure cross-platform compatability without bloat. 
                             <br/>
                             <br/>
-                            <b>It's Versatile!</b>
+                            <b style={{color: "#92DDC8"}}>It's Versatile!</b>
                             <br />
                             Unrealify is all you'll need, anywhere: it can be used for any Unreal 4/5 project on/for any platform!
                             <br />
                             <br />
-                            <b>It's Personal!</b>
+                            <b style={{color: "#92DDC8"}}>It's Personal!</b>
                             <br />
                             Unrealify can be customized to your needs. Whether you are a C++/Blueprint developer, customize the app in the settings to suit your needs!
                             <br/>
                             <br/>
-                            <b>It's Open Source!</b>
+                            <b style={{color: "#92DDC8"}}>It's Open Source!</b>
                             <br />
                             Meanings you can see the code it runs on and contribute to it. No hidden code, no strings attached.
                             <br />
                             <br />
-                            <b>It's Community-Driven!</b>
+                            <b style={{color: "#92DDC8"}}>It's Community-Driven!</b>
                             <br />
                             Others can contribute snippets for you to use! In this community-driven software, everyone benifits from sharing.
                         </p>
@@ -103,6 +103,7 @@ export default function Home(){
                             <img src={require("../Image/Buttons/Itch.png")} alt="itch" width="250" height="250"/>
                         </a>
                     </div>
+                    <p>Made with &#60;3 from Cowland Game Studios</p>
                 </div>
             </div>
         </div>
