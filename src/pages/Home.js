@@ -11,9 +11,9 @@ export default function Home(){
     });
 
     return(
-        <div>
-            <img className="main-pano" src="./Pano.png" alt="logo" width="100%" height="100%" style={{transform: "scale("+ (scrollY + 3000) / 3000 +")", overflowX: "hidden"}}/> 
-            <div className="main-text" style={{transform: "scale("+ (scrollY + 900) / 1000 +")", zIndex: 1, overflowX: "hidden"}}>
+        <div style={{width: "100%"}}>
+            <img className="main-pano" src={require("../Image/Pano.png")} alt="logo" width="100%" height="100%" style={{transform: "scale("+ (1 - Math.min(Math.max((scrollY) * 0.005 / 10, 0), 0.5)) +")"}}/> 
+            <div className="main-text" style={{transform: "scale("+ Math.min(Math.max((scrollY + 900) / 1000, 0), 1.4) +")", zIndex: 1, overflowX: "hidden", position: "absolute"}}>
                 <p style={{color: "#92DDC8"}} className="spaced">UNREAL ENGINE</p>
                 <p className="spaced">SUPERCHARGED</p>
             </div>
@@ -35,16 +35,16 @@ export default function Home(){
                         <div style={{maxWidth: 1000}}>
                             <Carousel infiniteLoop={true} showArrows={true} autoPlay={true}>
                                 <div>
-                                    <img src="./Carousel/1.png" alt="logo" width="100%" height="100%"/>
+                                    <img src={require("../Image/Carousel/1.png")} alt="logo" width="100%" height="100%"/>
                                 </div>
                                 <div>
-                                    <img src="./Carousel/2.png" alt="logo" width="100%" height="100%"/>
+                                    <img src={require("../Image/Carousel/2.png")} alt="logo" width="100%" height="100%"/>
                                 </div>
                                 <div>
-                                    <img src="./Carousel/3.png" alt="logo" width="100%" height="100%"/>
+                                    <img src={require("../Image/Carousel/3.png")} alt="logo" width="100%" height="100%"/>
                                 </div>
                                 <div>
-                                    <img src="./Carousel/4.png" alt="logo" width="100%" height="100%"/>
+                                    <img src={require("../Image/Carousel/4.png")} alt="logo" width="100%" height="100%"/>
                                 </div>
                             </Carousel>
                         </div>
@@ -91,16 +91,16 @@ export default function Home(){
                     </div>
                     <div style={{display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "space-between", height: 120, paddingBottom: 150, paddingTop: 100}}>
                         <a href="https://github.com/Cowland-Game-Studios/Unrealify/releases" target="_blank">
-                            <img src="./Buttons/Download.png" alt="download" width="250" height="250"/>
+                            <img src={require("../Image/Buttons/Download.png")} alt="download" width="250" height="250"/>
                         </a>
                         <a href="https://github.com/Cowland-Game-Studios/Unrealify" target="_blank">
-                            <img src="./Buttons/Github.png" alt="github" width="250" height="250"/>
+                            <img src={require("../Image/Buttons/GitHub.png")} alt="github" width="250" height="250"/>
                         </a>
                         <a href="https://www.youtube.com/channel/UCMcfj1Phz3G9xH0fUF_o9Jw" target="_blank">
-                            <img src="./Buttons/Youtube.png" alt="docs" width="250" height="250"/>
+                            <img src={require("../Image/Buttons/Youtube.png")} alt="docs" width="250" height="250"/>
                         </a>
                         <a href="https://cowlandgamestudios.itch.io/" target="_blank">
-                            <img src="./Buttons/Itch.png" alt="itch" width="250" height="250"/>
+                            <img src={require("../Image/Buttons/Itch.png")} alt="itch" width="250" height="250"/>
                         </a>
                     </div>
                 </div>

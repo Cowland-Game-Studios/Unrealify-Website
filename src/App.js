@@ -14,17 +14,17 @@ function App() {
       <nav>
         <ul className="nav-list">
           <li className="nav-item">
-            <img src="./Logo.png" alt="logo" width="35" height="35"/>
-            <Link to="/">Unrealify</Link>
+            <img src={require("./Image/Logo.png")} alt="logo" width="35" height="35"/>
+            <Link to="/Unrealify-Website/">Unrealify</Link>
           </li>
           <li className="nav-item">
-            <Link to="/#features">Features</Link>
+            <Link to="/Unrealify-Website/#features">Features</Link>
           </li>
           <li className="nav-item">
-            <Link to="/#download">Download</Link>
+            <Link to="/Unrealify-Website/#download">Download</Link>
           </li>
           <li className="nav-item">
-            <Link to="/docs">Docs</Link>
+            <Link to="/Unrealify-Website/docs">Docs</Link>
           </li>
           <li className="nav-item">
             <a href="https://github.com/Cowland-Game-Studios/Unrealify" target="_blank">Github</a>
@@ -33,7 +33,7 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Unrealify-Website" element={<Home />} />
       </Routes>
     </Router>
   );
