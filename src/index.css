@@ -5,9 +5,97 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  /* box-shadow: 0px 10px 0px 0px; */
+  height: 50;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-right: 2rem;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  /* font-family: 'Akshar', sans-serif; */
+  font-family: 'Staatliches', cursive;
+  font-style: normal;
+}
+
+.nav-item img {
+  margin-right: 1rem;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+  font-size: 2.5rem;
+}
+
+.nav-item:first-child a {
+  font-size: 2.5rem;
+}
+
+.main-pano {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.main-text {
+  padding-top: 6rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.main-text p {
+  font-size: 10rem;
+  line-height: 0;
+  font-family: 'Staatliches', cursive;
+  /* font-style: normal; */
+}
+
+.fakeh1 {
+  font-size: 10rem;
+  font-family: 'Staatliches', cursive;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: boldblack;
+  font-family: 'Akshar', sans-serif;
+  font-style: normal;
+}
+
+p {
+  font-size: 1.7rem;
+  font-family: 'Akshar', sans-serif;
+}
+
+.aqua {
+  color: "#92DDC8"
+}
+
+.spaced {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }

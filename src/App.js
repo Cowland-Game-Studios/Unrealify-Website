@@ -1,24 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <nav>
+        <ul className="nav-list">
+          <li className="nav-item">
+            <img src="./Logo.png" alt="logo" width="35" height="35"/>
+            <Link to="/">Unrealify</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/#features">Features</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/#download">Download</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/docs">Docs</Link>
+          </li>
+          <li className="nav-item">
+            <a href="https://github.com/Cowland-Game-Studios/Unrealify" target="_blank">Github</a>
+          </li>
+        </ul>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
