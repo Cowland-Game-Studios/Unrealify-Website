@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Unrealify-Website/static/css/main.5e0cbc0b.css",
-    "main.js": "/Unrealify-Website/static/js/main.b44a250e.js",
+    "main.css": "/Unrealify-Website/static/css/main.f7bedc01.css",
+    "main.js": "/Unrealify-Website/static/js/main.8b317fb8.js",
     "static/js/787.dcbc7474.chunk.js": "/Unrealify-Website/static/js/787.dcbc7474.chunk.js",
     "static/media/Pano.png": "/Unrealify-Website/static/media/Pano.20d8c9eeffc41fbb6398.png",
     "static/media/1.png": "/Unrealify-Website/static/media/1.e08454f6ae231b063100.png",
@@ -14,12 +14,12 @@
     "static/media/Youtube.png": "/Unrealify-Website/static/media/Youtube.d8743445c343367274a4.png",
     "static/media/Download.png": "/Unrealify-Website/static/media/Download.48a563755df223acd4fc.png",
     "index.html": "/Unrealify-Website/index.html",
-    "main.5e0cbc0b.css.map": "/Unrealify-Website/static/css/main.5e0cbc0b.css.map",
-    "main.b44a250e.js.map": "/Unrealify-Website/static/js/main.b44a250e.js.map",
+    "main.f7bedc01.css.map": "/Unrealify-Website/static/css/main.f7bedc01.css.map",
+    "main.8b317fb8.js.map": "/Unrealify-Website/static/js/main.8b317fb8.js.map",
     "787.dcbc7474.chunk.js.map": "/Unrealify-Website/static/js/787.dcbc7474.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e0cbc0b.css",
-    "static/js/main.b44a250e.js"
+    "static/css/main.f7bedc01.css",
+    "static/js/main.8b317fb8.js"
   ]
 }
